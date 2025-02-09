@@ -1,4 +1,4 @@
-let History1 = {
+let history1 = {
     title: 'Book1',
     pageCount: 300,
     genre: 'historical',
@@ -6,8 +6,8 @@ let History1 = {
         {name: 'Anton', age: 30},
         {name: 'Andrii', age: 35}
     ]};
-console.log(History1);
-let History2 = {
+console.log(history1);
+let history2 = {
     title: 'Book2',
     pageCount: 400,
     genre: 'historical',
@@ -15,8 +15,8 @@ let History2 = {
         {name: 'Ivan', age:40},
         {name: 'Mykola', age: 25}
     ]};
-console.log(History2);
-let History3 = {
+console.log(history2);
+let history3 = {
     title: 'Book3',
     pageCount: 500,
     genre: 'historical',
@@ -24,4 +24,4 @@ let History3 = {
         {name: 'Stepan', age:37},
         {name: 'Andrii', age: 28}
     ]};
-console.log(History3);
+console.log(history3);
