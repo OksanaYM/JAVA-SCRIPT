@@ -24,12 +24,12 @@ console.log(cylinderFunction(3,5));
 // #SIdMd0hQ
 // - створити функцію яка приймає масив та виводить кожен його елемент
 
-function arrayFunction (array, ...arrayElements) {
-    console.log(arrayElements);
+function arrayFunction (product, ...productElements) {
+    console.log(productElements);
 }
 arrayFunction('products', 'tomato', 'orange', 'pineapple', 'apple')
 // or
-productsArray = ['tomato', 'orange', 'pineapple', 'apple', 'potato'];
+let productsArray = ['tomato', 'orange', 'pineapple', 'apple', 'potato'];
 
 function foobar(array) {
     for (const arrayElement of array) {
@@ -96,8 +96,8 @@ lineNumberFunction('!!!Octen!!!', 10)
 // та будує для них список (ul li) та виводить його через document.write
 
 //
-function arrayFurnitureFunction(array, ...functionFurnitureElements) {
-    document.write(`${array} = [ <ul>`);
+function arrayFurnitureFunction(furnItem, ...functionFurnitureElements) {
+    document.write(`${furnItem} = [ <ul>`);
         for (let i = 0; i < functionFurnitureElements.length; i++) {
             const furniture = functionFurnitureElements[i];
             document.write(`<li>${furniture}</li>`);
