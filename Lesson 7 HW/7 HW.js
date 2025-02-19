@@ -282,11 +282,3 @@ products.forEach((value, index) =>console.log(value,index));
 //
 // console.log(products.forEach.apply(product[50]))
 
-// Array.prototype.myForEach = function (callback){
-//     const yourArray = this;
-//     for (const item of yourArray) {
-//         callback(item);
-//
-//     }
-// };
-// [11, 22, 33].myForEach((x) => console.log(x));
