@@ -273,12 +273,20 @@ console.log(result)
 
 products.forEach((value, index) =>console.log(value,index));
 
-Products.prototype.forEach = function (){
-    let array = [];
-    for (let product of products) {
-        return `numbers: ${this.number}`
+// Products.prototype.forEach = function (numbers){
+//     let array = [];
+//     for (let product of products) {
+//         return `numbers: ${numbers}`
+//     }
+// }
+//
+// console.log(products.forEach.apply(product[50]))
+
+Array.prototype.myForEach = function (callback){
+    const yourArray = this;
+    for (const item of yourArray) {
+        callback(item);
 
     }
-}
-let result2 = products.forEach(50);
-console.log(result2)
+};
+[11, 22, 33].myForEach((x) => console.log(x));
