@@ -265,20 +265,19 @@ Products.prototype.filter = function (predicate) {
         if (predicate(product)) {
             arr.push(product)
         }
-        return arr
     }
+    return arr
 }
 let result = products.filter((product) => product.produceCountry === 'Ukraine');
 console.log(result)
 
 products.forEach((value, index) =>console.log(value,index));
 
-// Products.prototype.forEach = function (numbers){
-//     let array = [];
-//     for (let product of products) {
-//         return `numbers: ${numbers}`
-//     }
-// }
-//
-// console.log(products.forEach.apply(product[50]))
+Array.prototype.myForEach = function (callback) {
+    let yourArray = this
+    for (const item of this) {
+        callback(item)
 
+    }
+};
+[11, 22, 33].myForEach((x) => console.log(x));
