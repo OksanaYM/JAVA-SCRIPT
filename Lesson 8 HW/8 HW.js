@@ -21,10 +21,12 @@ function copy(objUser) {
         console.log(parse)
         return parse
     }
-    return 'It is not object'
+    throw new Error('!!!!!')
 }
 let clone = copy(users = {name:'Anna', age: 25, func(){console.log('Hi!!!')}, greeting() {console.log('hello')}});
 console.log(clone);
+copy(null);
+copy(undefined);
 
 // #iz6emEsP2BA
 // - є масив
