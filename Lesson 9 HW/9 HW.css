@@ -1,0 +1,35 @@
+body ul{
+    color: red;
+}
+.wrap, .collapse, .alpha, .beta {
+    width: 200px;
+    height: 200px;
+    background: deepskyblue;
+    color: darkblue;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 70px;
+    box-sizing: border-box;
+    border: 7px solid dodgerblue;
+    border-radius: 7%;
+    transition: 1s;
+    margin-bottom: 20px;
+
+}
+
+.main{
+    display: flex;
+    gap: 20px;
+}
+.courses h4{
+    color: darkgreen;
+}
+.courses p{
+    color: forestgreen;
+}
+.heading{
+    color: sandybrown;
+}
+.description{
+    color: firebrick;
+}
