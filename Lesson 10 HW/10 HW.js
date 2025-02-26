@@ -186,11 +186,17 @@ let names = [
     new NameAr('Andrii', 35)
 ]
 let endName = document.getElementById('name')
-let buttonName = document.getElementById('prev');
-buttonName.onclick = function() {
+let buttonPrev = document.getElementById('prev');
+buttonPrev.onclick = function() {
     for (let i = 0; i < names.length; i++) {
         let stringifyNames = JSON.stringify(names)
         endName.innerText = stringifyNames
-
+    }
+}
+let buttonNext = document.getElementById('next');
+buttonNext.onclick = function() {
+    for (let i = 0; i < names.length; i++) {
+        let stringifNames = JSON.stringify(names)
+        endName.innerText = stringifNames
     }
 }
