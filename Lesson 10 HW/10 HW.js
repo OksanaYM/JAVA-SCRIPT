@@ -140,6 +140,7 @@ tableInput.onsubmit = function (ev) {
     }
 
 }
+//
 //     #bq1zkx7WP
 // *** (подібне було вище, але...будьте уважні в другій частині) створити сторінку з довільним блоком, в середині
 // якого є значення "100грн"
@@ -187,6 +188,9 @@ let names = [
 let endName = document.getElementById('name')
 let buttonName = document.getElementById('prev');
 buttonName.onclick = function() {
-    let resultName =
-    endName.innerText = resultName
+    for (let i = 0; i < names.length; i++) {
+        let stringifyNames = JSON.stringify(names)
+        endName.innerText = stringifyNames
+
+    }
 }
