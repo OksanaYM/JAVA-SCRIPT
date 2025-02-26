@@ -1,0 +1,49 @@
+input[type="text"]:focus{
+    outline: none;
+}
+input[type="text"]::placeholder{
+    color: darkblue;
+}
+input[type="number"]::placeholder{
+    color: darkblue;
+}
+*{
+    box-sizing: border-box;
+}
+* button{
+    border: none;
+}
+#text{
+    width: 250px;
+    height: 200px;
+    background-color: deepskyblue;
+    text-align: center;
+    padding-top: 50px;
+}
+h2, p{
+    color: darkblue;
+}
+button{
+    width: 250px;
+    height: 50px;
+    background-color: blue;
+    border: none;
+    color: white;
+}
+Input{
+    padding-left: 10px;
+    width: 250px;
+    height: 50px;
+    background-color: deepskyblue;
+    color: darkblue;
+    font-size: 20px;
+    border: none;
+}
+
+#ageButton{
+    width: 100px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+}
