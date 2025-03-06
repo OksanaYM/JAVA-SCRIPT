@@ -71,4 +71,3 @@ fetch('https://dummyjson.com/recipes')
         recipeDivMain.appendChild(recipesDiv)
         }
     });
-

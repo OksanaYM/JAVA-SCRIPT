@@ -1,0 +1,103 @@
+/*--------------------------------INDEX----------------------------------------------*/
+#users {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-left: 170px;
+
+}
+button{
+    width: 250px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+.users-info-div{
+    background-color: skyblue;
+    width: 550px;
+    height: 180px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+
+}
+.users-info-div h2{
+    margin-left: 100px;
+}
+.users-info-div button{
+    margin-left: 100px;
+}
+
+/*____________________________USER-DETAILS__________________________________________________*/
+#user-details{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.users-details-div{
+    display: flex;
+    flex-direction: column;
+    background-color: #cadcef;
+    width: 95vw;
+}
+.users-details-div button{
+    margin: 20px auto;
+    width: 90vw;
+}
+.users-details-div h5{
+    margin-left: 35vw;
+}
+.posts-main{
+    width: 280px;
+    height: 200px;
+    background-color: #cee5ed;
+    border-radius: 10px;
+}
+.posts-main h4, p{
+    margin-left: 20px;
+}
+.posts-main button{
+    margin-left: 15px;
+}
+
+#posts-container{
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-left: 20px;
+}
+.posts{
+    height: 100px;
+}
+
+/*----------------------------POST-DETAILS---------------------------------------*/
+#posts-details{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    background-color: #d3f0f8;
+    margin-bottom: 40px;
+}
+.post-detail{
+    height: 400px;
+    width: 50vw;
+    margin-left: 35vw;
+}
+#posts-details h2{
+    margin-left: 35vw;
+}
+.post-comment{
+    width: 300px;
+    height: 250px;
+    background-color: #cee5ed;
+    padding: 15px;
+}
+#comments{
+    padding: 10px;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
