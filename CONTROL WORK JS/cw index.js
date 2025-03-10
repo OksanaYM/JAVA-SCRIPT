@@ -19,7 +19,7 @@ fetch ('https://jsonplaceholder.typicode.com/users')
             let buttonInfo = document.createElement('button')
             buttonInfo.innerText = 'READ MORE'
             buttonInfo.onclick = function (){
-                window.location.href = `user-details.html?id=${user['id']}`
+                location.href = `user-details.html?id=${user.id}`
             }
             usersInfoDiv.append(userInfoH, buttonInfo)
             usersDiv.appendChild(usersInfoDiv)

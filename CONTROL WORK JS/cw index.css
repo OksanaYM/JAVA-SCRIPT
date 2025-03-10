@@ -72,7 +72,9 @@ button{
 .posts{
     height: 100px;
 }
-
+.disable{
+    pointer-events: none;
+}
 /*----------------------------POST-DETAILS---------------------------------------*/
 #posts-details{
     display: flex;

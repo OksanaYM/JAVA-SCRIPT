@@ -47,9 +47,8 @@
 //             let buttonInfo = document.createElement('button')
 //             buttonInfo.classList.add('buttonInfo')
 //             buttonInfo.innerText = 'Post of current user'
-//             debugger
+//
 //             buttonInfo.onclick = function (){
-//                 debugger
 //                 window.location.href = `post-details.html?id=${user['id']}`
 //             }
 //             usersDetailsDiv.appendChild(buttonInfo)

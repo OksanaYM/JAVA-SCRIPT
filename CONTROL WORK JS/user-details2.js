@@ -51,13 +51,12 @@ fetch (`https://jsonplaceholder.typicode.com/users?id=${userId}`)
                                 let buttonPosts = document.createElement('button')
                                 buttonPosts.innerText = 'POST DETAILS'
                                 buttonPosts.onclick = function (){
-                                    window.location.href = `post-details.html?id=${id}&postId=${post.id}`
+                                    location.href = `post-details.html?id=${id}&postId=${post.id}`
                                 }
                                 postCont.append(postDiv, buttonPosts);
                                 postsContainer.appendChild(postCont)
                             });
-                            buttonInfo.remove()
-
+                            buttonInfo.classList.add('disable')
                         });
                 }
 
